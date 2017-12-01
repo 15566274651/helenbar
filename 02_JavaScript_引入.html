@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS引入</title>
+    <!--引入方式提倡在body或者head里面引入（推荐在body的底部引入）-->
+    <!--在head标签内引入外部JS,src指向外部JS文件路径  type：声明引入的js文件类型
+    注意：Script标签不要用凯苏结束符
+    -->
+    <script src="js/test.js" type="text/javascript">
+
+    </script>
+</head>
+<body>
+
+<!--
+JavaScript是脚本语言，跟Java没有任何关系
+    1、网页包含HTML+CSS，用于网页的布局、修饰等
+    2、JS用于处理网页中的事件，即事件驱动
+
+JS包含：
+    1、JS的基本语法：变量，数据类型、运算符、注释。数组、对象等一系列
+    2、DOM：操作网页中的各种元素，例如增加，删除元素等
+    3、BOM：浏览器对象模型，包含了当前浏览器的基本信息
+JS的引入方式：
+    1、外部引入：
+    2、内部标签引入：
+-->
+<!--<script src="js/test.js" type="text/javascript"></script>-->
+
+<!--内部标签引入JS，推荐在body中定义
+type:告诉浏览器script标签中的内容是JS，请用JS来处理
+-->
+<script type="text/javascript">
+    /*JS代码在这个地方填写*/
+    //注释的方式跟Java类似
+    /**
+     * 块注释**/
+</script>
+
+
+</body>
+</html>
